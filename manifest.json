@@ -22,7 +22,7 @@
   "description": "Custom calc web app",
   "screenshots": [
     {
-      "src": "./public/screenshot.png",
+      "src": "https://neofitt.github.io/calculator/public/screenshot.png",
       "type": "image/png",
       "sizes": "1347x592"
     }
