@@ -13,15 +13,16 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://neofitt.github.io/calculator/",
+  "id": "/calculator",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "hsl(222, 26%, 31%)",
-  "scope": "/",
+  "scope": "https://neofitt.github.io/calculator/",
   "description": "Custom calc web app",
   "screenshots": [
     {
-      "src": "/public/screenshot.png",
+      "src": "./screenshot.png",
       "type": "image/png",
       "sizes": "1347x592"
     }
