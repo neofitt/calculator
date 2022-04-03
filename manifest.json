@@ -13,7 +13,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  // "start_url": "/",
+  "id": "/calculator/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "hsl(222, 26%, 31%)",
