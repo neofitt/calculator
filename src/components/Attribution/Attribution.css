@@ -1,0 +1,13 @@
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+
+	margin-top: auto;
+	color: var(--attribution-color);
+
+	}
+
+.attribution a{ 
+	color: var(--attribution-color);
+	text-decoration: none;
+	}

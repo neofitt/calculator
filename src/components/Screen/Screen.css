@@ -1,0 +1,27 @@
+.screen{
+	background: var(--screen-bg);
+
+	height: 3rem;
+	border-radius: var(--radius);
+
+	color: var(--logo-color);
+	padding: 1rem 1rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	
+}
+
+.screen__value{
+	font-size: 24px;
+}
+
+
+
+@media(min-width: 1024px){
+	.screen {
+		height: 4rem;
+}
+}

@@ -1,0 +1,58 @@
+.button{
+	border-radius: 4px;
+	box-shadow: 0px 3px var(--key-shadow);
+
+	height: 40px;
+	
+	background-color: var(--key-bg);
+
+	font-size: var(--size-normal);
+	font-weight: var(--weight-normal);
+
+	color: var(--numbers-color);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	cursor: pointer;
+
+	padding: 2px 7px 0 7px;
+}
+
+.size--sm{
+	font-size: 12px;
+}
+
+
+.button--del{
+	background-color: var(--number-color);
+	color: var(--del-color);
+}
+
+.button--equal{
+	grid-column: 3/5; 
+	background-color: var(--toggle-shadow);
+	box-shadow: 0px 3px var(--equal-shadow);
+	color: var(--equal-color);
+}
+
+.button--reset{
+	grid-column: 1/3;
+	background-color: var(--number-color);
+	box-shadow: 0px 3px var(--reset-shadow);
+	color: var(--del-color);
+}
+
+.button--multiply {
+	font-size: 17px;
+	padding-top: 10px;
+}
+
+
+@media(min-width: 1024px){
+	.button{
+		padding: 2px 25px 0 25px;
+	}
+}

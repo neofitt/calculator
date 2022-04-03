@@ -1,0 +1,98 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+:root{
+	/* typography */
+	--size-normal: 24px;
+  	--weight-normal: 700;
+  	--radius: 8px;
+
+
+	--white: hsl(0, 0, 100%);
+}
+  
+body {
+	margin: 0;
+  	font-family: 'Spartan', sans-serif;
+}
+       
+body[theme='theme1']{
+	--numberscolor: black;
+	--logo-color: white;
+	--del-color: white;
+
+
+	--container-bg: hsl(222, 26%, 31%);
+	--toggle-bg: hsl(223, 31%, 20%);
+	--numbers-color:hsl(221, 14%, 31%);
+
+	/* equal */
+	--toggle-shadow: hsl(6, 63%, 50%);
+	--screen-bg: hsl(224, 36%, 15%);
+
+	--key-bg: hsl(30, 25%, 89%);
+	--key-shadow: hsl(28, 16%, 65%);
+
+ /* del, reset */
+	--number-color: hsl(225, 21%, 49%); 
+
+	--reset-shadow: hsl(224, 28%, 35%);
+	--equal-shadow: hsl(6, 70%, 34%);
+	--attribution-color: black;
+}
+
+
+body[theme='theme2']{
+	--numberscolor: black;
+	--logo-color: black;
+	--del-color: white;
+	--equal-color: white;
+
+
+	--container-bg: hsl(0, 0%, 90%);
+	--toggle-bg: hsl(0, 5%, 81%);
+	--numbers-color: hsl(60, 10%, 19%);
+
+	--toggle-shadow: hsl(25, 98%, 40%);
+	--screen-bg: hsl(0, 0%, 93%);
+
+	--key-bg: hsl(45, 7%, 89%);
+	--key-shadow: hsl(35, 11%, 61%);
+
+	--number-color: hsl(185, 42%, 37%);
+
+	--reset-shadow: hsl(185, 58%, 25%);
+	--equal-shadow: hsl(25, 99%, 27%);
+
+	--attribution-color: black;
+}
+
+body[theme='theme3']{
+	--numberscolor: black;
+	--logo-color:  white;
+	--del-color: white;
+	--equal-color: black;
+
+
+	--container-bg: hsl(281, 89%, 26%);
+	--toggle-bg: hsl(268, 71%, 12%);
+	--numbers-color: hsl(52, 100%, 62%);
+
+	--toggle-shadow: hsl(176, 100%, 44%);
+	--screen-bg:  hsl(268, 71%, 12%);
+
+	--key-bg: hsl(268, 47%, 21%);
+	--key-shadow: hsl(290, 70%, 36%);
+
+	--number-color: hsl(281, 89%, 26%);
+
+	--reset-shadow: hsl(285, 91%, 52%);
+	--equal-shadow: hsl(177, 92%, 70%);
+
+	--attribution-color: black;
+}
+
