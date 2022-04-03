@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/custom-calc/static/css/main.3c6592a3.css",
+    "main.js": "/custom-calc/static/js/main.8b3a70ae.js",
+    "service-worker.js": "/custom-calc/service-worker.js",
+    "index.html": "/custom-calc/index.html",
+    "main.3c6592a3.css.map": "/custom-calc/static/css/main.3c6592a3.css.map",
+    "main.8b3a70ae.js.map": "/custom-calc/static/js/main.8b3a70ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c6592a3.css",
+    "static/js/main.8b3a70ae.js"
+  ]
+}

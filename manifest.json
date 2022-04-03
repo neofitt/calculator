@@ -1,0 +1,31 @@
+{
+  "short_name": "Custom calculator",
+  "name": "Custom calculator app built as a PWA",
+  "icons": [
+    {
+      "src": "icon-192.svg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.svg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "hsl(222, 26%, 31%)",
+  "scope": "/",
+  "description": "Custom calc web app",
+  "screenshots": [
+    {
+      "src": "/public/screenshot.png",
+      "type": "image/png",
+      "sizes": "1347x592"
+    }
+  ]
+}
+
+
